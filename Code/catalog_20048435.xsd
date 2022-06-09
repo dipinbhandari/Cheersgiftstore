@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CheersGiftStore">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Giftstore">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" minOccurs="0" />
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Street" type="xs:string" minOccurs="0" />
+                                        <xs:element name="city" type="xs:string" />
+                                        <xs:element name="country" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Telephone_Number">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Personal_Number" minOccurs="0" >
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="Mobile-no:\+44-[0-9]{2}-[0-9]{4}-[0-9]{4}"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Official_Number" >
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="Phone-no:\+44-[0-9]{2}-[0-9]{4}-[0-9]{4}"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Email" minOccurs="0">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[^@]+@[^\.]+\..+"> </xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Website-Address" type="xs:string" />
+                            <xs:element name="Logo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="GiftCards">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Giftcard" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Seller">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="SellerID" use="required" fixed="DG892C" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Cost" type="xs:string" />
+                                        <xs:element name="validity" type="xs:string" />
+                                        <xs:element name="No_of_users">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="limits" type="xs:integer" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Discount_Voucher" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="type" use="required" fixed="Percentage" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Code" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="GiftcardID" type="xs:integer" use="required" />
+                                    <xs:attribute name="CardType" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="copyright" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

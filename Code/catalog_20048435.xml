@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_20048435.css"?>
+<CheersGiftStore xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="
+catalog_20048435.xsd" xmlns="">
+ <!-- <DIPIN-BHANDARI-20048435😊😁> -->
+    <Giftstore>
+     <Name>💎CheersGiftStore</Name>
+     <Address>
+        <Street> Whitworth Street,</Street>
+        <city>Manchester</city>
+        <country>[United kingdom]</country>
+     </Address>
+     <Telephone_Number>
+        <Personal_Number>Mobile-no:+44-79-7577-8880</Personal_Number>
+        <Official_Number>Phone-no:+44-67-8577-7678</Official_Number>
+     </Telephone_Number>
+     <Email>www.cheersgiftstore@gmail.com</Email>
+     <Website-Address>https://www.cheersgiftstore.com</Website-Address>
+     <Logo></Logo>
+</Giftstore>
+    <!-- giftcard-1 -->
+    <GiftCards>
+    <Giftcard GiftcardID="877" CardType="Physical">
+        <Seller SellerID="DG892C"> Nordstrom Gift Card </Seller>
+        <Cost>Cost:	£49 </Cost>
+        <validity>validity-1Months
+        </validity>
+        <No_of_users limits="13">Number of users:6</No_of_users>
+        <Discount_Voucher type="Percentage">Discount:5%</Discount_Voucher>
+        <Code>Code:567CD43S</Code>
+    </Giftcard>
+    <!-- giftcard-2 -->
+    <Giftcard GiftcardID="987" CardType="Virtual">
+        <Seller SellerID="DG892C"> Subway Gift Card</Seller>
+        <Cost>Cost:	£150 </Cost>
+        <validity>validity-3Months
+    
+        </validity>
+        <No_of_users limits="10">Number of users:4</No_of_users>
+        <Discount_Voucher type="Percentage">Discount:7%</Discount_Voucher>
+        
+        <Code>Code:876654DAC</Code>
+    </Giftcard>
+    <!-- giftcard-3 -->
+<Giftcard GiftcardID="667" CardType="Virtual">
+    <Seller SellerID="DG892C">Cinemark Gift Card</Seller>
+    <Cost>Cost:	£200</Cost>
+    <validity>validity- 4Months
+        
+    </validity>
+    <No_of_users limits="10">Number of users:4</No_of_users>
+    <Discount_Voucher type="Percentage">Discount:7%</Discount_Voucher>
+    <Code>Code:87AC56FG4</Code>
+</Giftcard>
+<!-- giftcard-4 -->
+<Giftcard GiftcardID="986" CardType="Physical">
+    <Seller SellerID="DG892C"> Victorias Secret Gift Card	</Seller>
+    <Cost>Cost:	£350 </Cost>
+    <validity>
+        validity-7Months
+    </validity>
+    <No_of_users limits="10">Number of users:4</No_of_users>
+    <Discount_Voucher type="Percentage">Discount:7%</Discount_Voucher>
+    <Code>Code:JK567DF45</Code>
+</Giftcard>
+<!-- giftcard-5 -->
+<Giftcard GiftcardID="465" CardType="Virtual">
+    <Seller SellerID="DG892C"> Costco Gift Card</Seller>
+    <Cost>Cost:	£650 </Cost>
+    <validity>validity-9 Months
+        
+    </validity>
+    <No_of_users limits="7">Number of users:5</No_of_users>
+    <Discount_Voucher type="Percentage">Discount:4%</Discount_Voucher>
+    <Code>Code:DASF34565</Code>
+</Giftcard>
+<!-- giftcard-6 -->
+<Giftcard GiftcardID="745" CardType="Physical">
+    <Seller SellerID="DG892C"> Disney Gift Card</Seller>
+    <Cost>Cost:	£800 </Cost>
+    <validity>
+        validity-12 Months
+    </validity>
+    <No_of_users limits="9">Number of users:7</No_of_users>
+    <Discount_Voucher type="Percentage">Discount:7%</Discount_Voucher>
+    <Code>Code:9875R3DAC</Code>
+</Giftcard>
+
+<copyright>
+    All Rights are Reserved to © 💎 CheersGiftStore | DIPIN-BHANDARI-20048435😊😁|
+</copyright>
+</GiftCards>
+</CheersGiftStore>

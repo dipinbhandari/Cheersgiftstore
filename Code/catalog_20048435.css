@@ -1,0 +1,127 @@
+CheersGiftStore{
+  background-color: rgba(130, 171, 191, 0.967);
+  
+}
+
+/* for heading-2 */
+Street,
+country,
+Personal_Number,
+Official_Number,
+Email,
+city,
+Logo,
+Website-Address{
+  
+   text-align: center;
+   background-color: rgb(47, 79, 79);
+   color: white;
+   display: list-item;
+   float: inherit;
+   width: auto;
+   height: 30px;  
+}
+
+
+Logo {
+  background-image: url(99.png);
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 205px;
+  margin-top: -210px;
+  margin-bottom: 40px;
+ 
+}
+
+
+
+/* first heading (cheersgift card) */
+Name{ 
+  display:block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(7, 99, 99);
+  color: white;
+  
+}
+Name:hover{
+  /* padding: 20px; */
+    color: rgb(45, 219, 45);
+    display: flex;
+    justify-content: center;
+}
+
+
+Seller{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      color: rgb(246, 246, 251);
+      font-size: 24px;
+    }
+
+     Cost,
+     validity,
+     Code,
+     No_of_users,
+     Discount_Voucher{
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       display: block;
+      }
+
+      /* for giftcard */
+      Giftcard{
+        display: block;
+        border-style:dotted;
+        border-color: rgb(127, 231, 172);
+        border-width: 8px;
+        border-radius: 9px;
+        margin: 20px 350px;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+    Giftcard:hover{
+      transform: scale(1.15);
+      border: solid;
+      border-color: rgb(127,231,172);
+      border-style: line;
+      border-width: 8px;
+      background-color: rgb(131, 191, 202); 
+      
+  }
+  copyright{
+    background-color: rgb(7, 99, 99);
+    padding: 20px;
+    color: honeydew;
+    display: flex;
+    justify-content: center;
+}
+copyright:hover{
+  padding: 20px;
+    color: rgb(45, 219, 45);
+    display: flex;
+    justify-content: center;
+}
+      
+Giftcard[CardType=Virtual]{
+  display: block;
+  border-style:dotted;
+  border-color: rgb(193, 26, 93);
+  border-width: 8px;
+  border-radius: 9px;
+  margin: 20px 350px;
+  padding: 10px 30px;
+  cursor: pointer;
+}  
+Giftcard[CardType=Virtual]:hover{
+  transform: scale(1.15);
+  border: solid;
+  border-color: rgb(193,26,93);
+  border-style: line;
+  border-width: 8px;
+  background-color: rgb(131, 191, 202); 
+  
+}
